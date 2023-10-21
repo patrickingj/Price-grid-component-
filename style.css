@@ -109,6 +109,12 @@ button {
 }
 
 @media (min-width: 600px) {
+  body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  
   .ourServices {
     display: grid;
     grid-auto-flow: column;
