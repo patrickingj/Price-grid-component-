@@ -115,6 +115,10 @@ button {
     height: 100vh;
   }
   
+  .priceGrid {
+    max-width: 720px;
+  }
+  
   .ourServices {
     display: grid;
     grid-auto-flow: column;
